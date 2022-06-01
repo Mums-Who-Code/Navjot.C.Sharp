@@ -1,5 +1,6 @@
-﻿int[] player1Coin = new int[5] { 7, 5, 1, 25, 30 };
-int[] player2Coin = new int[5] { 5, 5, 10, 1, 25 };
+﻿Random random = new Random(); 
+int[] player1Coin = new int[5] { random.Next(1, 10), random.Next(1, 10), random.Next(1, 10), random.Next(1, 10), random.Next(1, 10) };
+int[] player2Coin = new int[5] { random.Next(1, 10), random.Next(1, 10), random.Next(1, 10) ,random.Next(1, 10), random.Next(1, 10) };
 double player1TotalScore = 0;
 double player2TotalScore = 0;
 
